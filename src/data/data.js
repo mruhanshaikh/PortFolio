@@ -75,17 +75,17 @@ export const labsRow2 = [
       tags: ["React", "Tailwind", "Vite", "Framer Motion"],
     },
     {
-      title: "Web Development Trainer",
-      company: "Infolabz IT Services",
-      period: "2024 — 2025",
-      desc: "Trained students and professionals in frontend web development — covering HTML, CSS, JavaScript, and React. Designed curriculum modules and helped learners build real-world projects from scratch.",
-      tags: ["HTML", "CSS", "JavaScript", "React", "Teaching"],
-    },
-    {
       title: "WordPress Developer & SEO Intern",
       company: "Icon Websolution",
       period: "2023 — 2024",
       desc: "Worked on multiple client projects across education, healthcare, and business sectors while learning professional workflows, deadlines, and production delivery.",
       tags: ["WordPress", "SEO", "PHP", "Client Work"],
     },
+     {
+      title: "Web Development Trainer",
+      company: "Infolabz IT Services",
+      period: "2024 — 2025",
+      desc: "Trained students and professionals in frontend web development — covering HTML, CSS, JavaScript, and React. Designed curriculum modules and helped learners build real-world projects from scratch.",
+      tags: ["HTML", "CSS", "JavaScript", "React", "Teaching"],
+    }
   ];
