@@ -1,4 +1,4 @@
-# Developer PortFolio - Mohammed Ruhan Shaikh 
+# PortFolio - Mohammed Ruhan Shaikh 
 
 > A polished, interaction-driven frontend portfolio built to make a lasting impression.
 

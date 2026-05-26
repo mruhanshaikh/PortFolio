@@ -47,7 +47,7 @@ export function HeroSection({ onNext }) {
           {/* Stats */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9 }}
             className="flex gap-6 sm:gap-8 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/08">
-            {[{ n: 3, s: "+", label: "Years Experience" }, { n: 20, s: "+", label: "Projects Built" }, { n: 9, s: ".44", label: "Diploma CGPA" }].map(({ n, s, label }) => (
+            {[{ n: 7, s: "+", label: "Years in Tech" }, { n: 35, s: "+", label: "Projects Built" }, { n: 9, s: ".19", label: "B.Tech CSE CGPA" }].map(({ n, s, label }) => (
               <div key={label}>
                 <p className="text-xl sm:text-3xl font-black text-white"><Counter to={n} suffix={s} /></p>
                 <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest leading-tight">{label}</p>
@@ -58,7 +58,7 @@ export function HeroSection({ onNext }) {
 
         <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: 0.3, duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
           className="rotate-border w-32 sm:w-48 lg:w-80 mx-auto flex-shrink-0">
-          <img src="/ruhan.jpg" className="w-full rounded-[36px]" alt="Mohammed Ruhan Shaikh" />
+          <img src="/ruhan.jpeg" className="w-full rounded-[36px]" alt="Mohammed Ruhan Shaikh" />
         </motion.div>
       </div>
 

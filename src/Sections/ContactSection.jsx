@@ -17,7 +17,7 @@ export function ContactSection() {
               <span className="text-cyan-400">meaningful</span> together.
             </h2>
             <p className="text-zinc-400 text-center leading-8 text-sm sm:text-base max-w-lg mx-auto">
-              Available for frontend development, freelance work, and creative collaborations.
+              Available for frontend roles, freelance work, and creative collaborations.
             </p>
           </motion.div>
 
