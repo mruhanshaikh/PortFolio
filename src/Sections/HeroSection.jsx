@@ -47,7 +47,7 @@ export function HeroSection({ onNext }) {
           {/* Stats */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9 }}
             className="flex gap-6 sm:gap-8 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/08">
-            {[{ n: 7, s: "+", label: "Years in Tech" }, { n: 35, s: "+", label: "Projects Built" }, { n: 9, s: ".19", label: "B.Tech CSE CGPA" }].map(({ n, s, label }) => (
+            {[{ n: 7, s: "+", label: "Years in Tech" }, { n: 50, s: "+", label: "Projects Built" }, { n: 9, s: ".19", label: "B.Tech CSE CGPA" }].map(({ n, s, label }) => (
               <div key={label}>
                 <p className="text-xl sm:text-3xl font-black text-white"><Counter to={n} suffix={s} /></p>
                 <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest leading-tight">{label}</p>
