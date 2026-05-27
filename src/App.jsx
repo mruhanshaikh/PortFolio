@@ -9,7 +9,7 @@ import { ScrollingRow } from "./Components/ScrollingRow";
 import { SkillBar } from "./Components/SkillBar";
 import { Counter } from "./Components/Counter";
 import { ContactForm } from "./Components/ContactForm";
-import { Typewriter } from "./Components/TypeWriter";
+import { Typewriter } from "./Components/Typewriter";
 import { HeroSection } from "./Sections/HeroSection";
 import { JourneySection } from "./Sections/JourneySection";
 import { ProjectsSection } from "./Sections/ProjectSection";
