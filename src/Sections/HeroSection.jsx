@@ -1,6 +1,6 @@
 import { motion} from "framer-motion";
 import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
-import { Typewriter } from "../Components/TypeWriter";
+import { Typewriter } from "../Components/Typewriter";
 import { Counter } from "../Components/Counter";
 
 export function HeroSection({ onNext }) {
