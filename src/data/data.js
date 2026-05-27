@@ -61,14 +61,14 @@ export const labsRow2 = [
   ["Infinite Scroll Feed", "https://infinite-query.netlify.app/"],
   ["Scroll-Triggered Landing Page", "https://scrolllltriggeer.netlify.app/"],
   ["Responsive Studio Website", "https://responsive-studio-website.netlify.app/"],
-  ["Dribbble-Inspired UI", "https://dribbble-clonee.netlify.app/"],
-  ["Apple-Inspired Homepage", "https://applle-clonee.netlify.app/"],
   ["Hover Expand Card", "https://tougen-anki.netlify.app/"],
   ["Random Position Generator", "https://randompositionedquotes.netlify.app/"],
   ["Form to Card Generator", "https://dynamicprofilebuilder.netlify.app/"],
   ["Download Progress Effect", "https://downloadnoweffect.netlify.app/"],
   ["Scroll Progress Bar", "https://scrolling-animationn.netlify.app/"],
   ["Anchor-Based Navbar", "https://nav-anchor.netlify.app/"],
+  ["Text-Reveal-Effect", "https://matrix-text-revealed.netlify.app/"],
+  ["userCard-generator", " https://fetchuserdatacard.netlify.app/"],
 ];
 
   export const experiences = [
