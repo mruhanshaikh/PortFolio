@@ -27,6 +27,12 @@ export function HeroSection({ onNext }) {
             I build software that{" "}
             <Typewriter words={["businesses run on.", "keeps working offline.", "is tested before it ships.", "grows with the business."]} />
           </motion.p>
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.6 }}
+            className="flex flex-wrap gap-2 mt-4">
+            {["React", "Node.js", "Express", "Prisma", "MySQL"].map((t) => (
+              <span key={t} className="rounded-full border border-cyan-400/30 bg-cyan-400/10 px-3 py-1 text-xs text-cyan-300">{t}</span>
+            ))}
+          </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7 }}
             className="flex flex-wrap gap-2 sm:gap-3 mt-5 sm:mt-8">
@@ -51,7 +57,7 @@ export function HeroSection({ onNext }) {
           {/* Stats */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9 }}
             className="flex gap-6 sm:gap-8 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/08">
-            {[{ n: 960, s: "+", label: "Tests on POSitive" }, { n: 100, s: "+", label: "Businesses at GroupTakey" }, { n: 10, s: "", label: "Client Projects" }].map(({ n, s, label }) => (
+            {[{ n: 6, s: "", label: "Outlets onboarding POSitive" }, { n: 100, s: "+", label: "Businesses on 5 SaaS apps" }, { n: 10, s: "", label: "Client projects delivered" }].map(({ n, s, label }) => (
               <div key={label}>
                 <p className="text-xl sm:text-3xl font-black text-white"><Counter to={n} suffix={s} /></p>
                 <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest leading-tight">{label}</p>
