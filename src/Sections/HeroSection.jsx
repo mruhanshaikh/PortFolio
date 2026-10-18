@@ -1,5 +1,5 @@
 import { motion} from "framer-motion";
-import { Github, Linkedin, Mail, ChevronDown } from "lucide-react";
+import { Github, Linkedin, Mail, ChevronDown, FileText } from "lucide-react";
 import { Typewriter } from "../Components/Typewriter";
 import { Counter } from "../Components/Counter";
 
@@ -41,6 +41,10 @@ export function HeroSection({ onNext }) {
             <a href="https://www.linkedin.com/in/mohammedruhanshaikh" target="_blank" rel="noreferrer"
               className="water-btn glass rounded-full px-4 py-2.5 sm:py-3 flex items-center gap-2 text-xs sm:text-sm hover:border-cyan-400/30 transition-colors">
               <Linkedin size={13} /> LinkedIn
+            </a>
+            <a href="/Mohammed_Ruhan_Shaikh_Resume.pdf" target="_blank" rel="noreferrer"
+              className="water-btn glass rounded-full px-4 py-2.5 sm:py-3 flex items-center gap-2 text-xs sm:text-sm hover:border-cyan-400/30 transition-colors">
+              <FileText size={13} /> Resume
             </a>
           </motion.div>
 
