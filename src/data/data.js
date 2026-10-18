@@ -17,6 +17,7 @@ export const featured = [
   {
     title: "POSitive",
     image: "https://simplypositive.app/og-image.png",
+    imageClass: "object-left",
     live: "https://simplypositive.app/",
     github: null,
     desc: "A live billing SaaS for restaurants and food counters with counter billing, QR ordering with UPI, a kitchen screen, waiter orders on phones and offline billing. Shipped with 960+ automated tests and a 100-outlet load test with zero errors.",
