@@ -14,7 +14,7 @@ export function HeroSection({ onNext }) {
         <motion.div initial={{ opacity: 0, x: -60 }} animate={{ opacity: 1, x: 0 }} transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}>
           <motion.p initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
             className="uppercase tracking-[0.4em] text-zinc-500 text-xs sm:text-sm mb-3 sm:mb-4">
-            Frontend Developer · Ahmedabad
+            Full-Stack Software Engineer · Ahmedabad
           </motion.p>
           <h1 className="text-4xl sm:text-6xl md:text-7xl xl:text-8xl font-black leading-[0.95] tracking-tight">
             Mohammed<br />
@@ -24,8 +24,8 @@ export function HeroSection({ onNext }) {
 
           <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }}
             className="text-zinc-400 mt-4 sm:mt-6 leading-7 sm:leading-8 text-sm sm:text-lg max-w-xl">
-            I craft interfaces that{" "}
-            <Typewriter words={["feel alive.", "move beautifully.", "perform flawlessly.", "leave impressions."]} />
+            I build software that{" "}
+            <Typewriter words={["businesses run on.", "keeps working offline.", "is tested before it ships.", "grows with the business."]} />
           </motion.p>
 
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.7 }}
@@ -38,7 +38,7 @@ export function HeroSection({ onNext }) {
               className="water-btn glass rounded-full px-4 py-2.5 sm:py-3 flex items-center gap-2 text-xs sm:text-sm hover:border-cyan-400/30 transition-colors">
               <Github size={13} /> GitHub
             </a>
-            <a href="https://www.linkedin.com/in/mohammed-ruhan-shaikh-86a237398/" target="_blank" rel="noreferrer"
+            <a href="https://www.linkedin.com/in/mohammedruhanshaikh" target="_blank" rel="noreferrer"
               className="water-btn glass rounded-full px-4 py-2.5 sm:py-3 flex items-center gap-2 text-xs sm:text-sm hover:border-cyan-400/30 transition-colors">
               <Linkedin size={13} /> LinkedIn
             </a>
@@ -47,7 +47,7 @@ export function HeroSection({ onNext }) {
           {/* Stats */}
           <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.9 }}
             className="flex gap-6 sm:gap-8 mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-white/08">
-            {[{ n: 7, s: "+", label: "Years in Tech" }, { n: 50, s: "+", label: "Projects Built" }, { n: 9, s: ".19", label: "B.Tech CSE CGPA" }].map(({ n, s, label }) => (
+            {[{ n: 960, s: "+", label: "Tests on POSitive" }, { n: 100, s: "+", label: "Paying Businesses" }, { n: 10, s: "", label: "Client Projects" }].map(({ n, s, label }) => (
               <div key={label}>
                 <p className="text-xl sm:text-3xl font-black text-white"><Counter to={n} suffix={s} /></p>
                 <p className="text-xs text-zinc-500 mt-1 uppercase tracking-widest leading-tight">{label}</p>
