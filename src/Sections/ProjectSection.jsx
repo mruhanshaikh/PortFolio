@@ -38,11 +38,15 @@ export function ProjectsSection() {
                       className="water-btn bg-white text-black rounded-full px-5 py-3 font-semibold flex items-center gap-2 text-sm">
                       Live Site <ExternalLink size={15} />
                     </motion.a>
-                    <motion.a href={project.github} target="_blank" rel="noreferrer"
-                      whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
-                      className="water-btn glass rounded-full px-5 py-3 text-sm flex items-center gap-2">
-                      <Github size={15} /> GitHub
-                    </motion.a>
+                    {project.github ? (
+                      <motion.a href={project.github} target="_blank" rel="noreferrer"
+                        whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}
+                        className="water-btn glass rounded-full px-5 py-3 text-sm flex items-center gap-2">
+                        <Github size={15} /> GitHub
+                      </motion.a>
+                    ) : (
+                      <span className="glass rounded-full px-5 py-3 text-sm text-zinc-500 flex items-center">Private codebase</span>
+                    )}
                   </div>
                 </div>
               </div>
