@@ -8,7 +8,7 @@ export function LabsSection() {
         <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
           <p className="text-xs uppercase tracking-[0.4em] text-zinc-500 mb-3">Experiments & explorations</p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black mb-3">Labs</h2>
-          <p className="text-zinc-500 text-sm sm:text-base mb-8 max-w-lg">Quick projects, components, and UI experiments — where I try ideas before they become products.</p>
+          <p className="text-zinc-500 text-sm sm:text-base mb-8 max-w-lg">Quick projects, components and experiments, where I try ideas before they become products.</p>
         </motion.div>
       </div>
 
