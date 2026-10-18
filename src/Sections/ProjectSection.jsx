@@ -20,7 +20,7 @@ export function ProjectsSection() {
               <div className={`grid lg:grid-cols-2 ${i % 2 === 1 ? "lg:grid-flow-dense" : ""}`}>
                 <div className={`overflow-hidden relative ${i % 2 === 1 ? "lg:col-start-2" : ""}`}>
                   <img src={project.image} alt={project.title}
-                    className="w-full h-48 sm:h-64 lg:h-full object-cover transition-transform duration-700 group-hover:scale-105" />
+                    className={`w-full h-48 sm:h-64 lg:h-full object-cover ${project.imageClass || ""} transition-transform duration-700 group-hover:scale-105`} />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 </div>
                 <div className={`p-6 sm:p-10 md:p-14 ${i % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""}`}>
