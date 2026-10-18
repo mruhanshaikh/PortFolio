@@ -33,7 +33,7 @@ export function JourneySection() {
           <div className="lg:hidden glass rounded-[24px] p-6">
             <p className="text-zinc-500 uppercase text-xs tracking-[0.3em] mb-4">Current Focus</p>
             <div className="flex flex-wrap gap-3">
-              {["React Ecosystem", "Motion & Interaction", "Performance", "Frontend Architecture"].map((s) => (
+              {["React & Node.js", "SaaS Products", "Databases", "Testing"].map((s) => (
                 <div key={s} className="glass rounded-full px-4 py-2 text-sm">{s}</div>
               ))}
             </div>
