@@ -51,7 +51,7 @@ export const skills = [
   { name: "Prisma / MySQL / MongoDB", level: 0.85 },
   { name: "REST APIs / GraphQL", level: 0.84 },
   { name: "TanStack Query / Zustand", level: 0.84 },
-  { name: "Vitest / Playwright", level: 0.80 },
+  { name: "Vitest / Supertest", level: 0.80 },
   { name: "PHP / LAMP", level: 0.78 },
   { name: "Git / Hostinger / Netlify", level: 0.80 },
 ];
